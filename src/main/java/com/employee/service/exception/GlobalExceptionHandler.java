@@ -1,0 +1,4 @@
+package com.employee.service.exception;
+
+public class GlobalExceptionHandler {
+}
