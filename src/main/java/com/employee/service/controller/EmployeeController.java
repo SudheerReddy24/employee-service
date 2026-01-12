@@ -27,7 +27,6 @@ public class EmployeeController {
             return ResponseEntity.status(HttpStatus.CREATED).body(employee1);
         }
         catch (Exception e){
-            e.printStackTrace();
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
         }
     }
